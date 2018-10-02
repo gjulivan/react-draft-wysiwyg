@@ -61,7 +61,7 @@ export default class Emoji extends Component {
       editorState.getCurrentInlineStyle(),
     );
     onChange(EditorState.push(editorState, contentState, 'insert-characters'));
-    this.doCollapse();
+    // this.doCollapse();
   };
 
   render(): Object {
